@@ -14,6 +14,7 @@
 		7282656925F07ECB0090C76D /* TravelBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7282656725F07ECB0090C76D /* TravelBook.xcdatamodeld */; };
 		7282656B25F07ECB0090C76D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7282656A25F07ECB0090C76D /* Assets.xcassets */; };
 		7282656E25F07ECB0090C76D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7282656C25F07ECB0090C76D /* LaunchScreen.storyboard */; };
+		7282657725F092A50090C76D /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7282657625F092A50090C76D /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7282656A25F07ECB0090C76D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7282656D25F07ECB0090C76D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7282656F25F07ECB0090C76D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7282657625F092A50090C76D /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				7282655E25F07ECB0090C76D /* AppDelegate.swift */,
 				7282656025F07ECB0090C76D /* SceneDelegate.swift */,
 				7282656225F07ECB0090C76D /* ViewController.swift */,
+				7282657625F092A50090C76D /* ListViewController.swift */,
 				7282656425F07ECB0090C76D /* Main.storyboard */,
 				7282656A25F07ECB0090C76D /* Assets.xcassets */,
 				7282656C25F07ECB0090C76D /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				7282656925F07ECB0090C76D /* TravelBook.xcdatamodeld in Sources */,
 				7282656325F07ECB0090C76D /* ViewController.swift in Sources */,
 				7282655F25F07ECB0090C76D /* AppDelegate.swift in Sources */,
+				7282657725F092A50090C76D /* ListViewController.swift in Sources */,
 				7282656125F07ECB0090C76D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32Z3ATUV54;
 				INFOPLIST_FILE = TravelBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32Z3ATUV54;
 				INFOPLIST_FILE = TravelBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
